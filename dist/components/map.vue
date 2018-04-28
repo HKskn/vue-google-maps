@@ -8,8 +8,7 @@
   </div>
 </template>
 
-<script>
-export default (x => x.default || x)(require('./mapImpl.js'))
+<script src="./mapImpl.js">
 </script>
 
 <style lang="css">

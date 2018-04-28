@@ -3,6 +3,5 @@
     :value="value"/>
 </template>
 
-<script>
-export default (x => x.default || x)(require('./autocompleteImpl.js'))
+<script src="./autocompleteImpl.js">
 </script>
