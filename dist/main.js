@@ -13,8 +13,6 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 exports.install = install;
 exports.gmapApi = gmapApi;
 
-require('babel-polyfill');
-
 var _manager = require('./manager.js');
 
 var _marker = require('./components/marker');
