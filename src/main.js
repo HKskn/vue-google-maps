@@ -1,4 +1,3 @@
-import 'babel-polyfill'
 import {load, loaded} from './manager.js'
 import Marker from './components/marker'
 import Polyline from './components/polyline'

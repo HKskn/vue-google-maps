@@ -1,10 +1,10 @@
 /* vim: set softtabstop=2 shiftwidth=2 expandtab : */
-const webpack = require('webpack');
+const webpack = require('webpack')
 const path = require('path')
 
 const baseConfig = {
   entry: [
-    path.resolve('./src/main.js')
+    'babel-polyfill', path.resolve('./src/main.js')
   ],
   module: {
     rules: [
