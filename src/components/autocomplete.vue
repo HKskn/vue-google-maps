@@ -3,5 +3,6 @@
     :value="value"/>
 </template>
 
-<script src="./autocompleteImpl.js">
+<script>
+	export default (function (x) { return x.default || x })(require('./autocompleteImpl.js'))
 </script>

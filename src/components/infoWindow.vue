@@ -9,5 +9,6 @@
   </div>
 </template>
 
-<script src="./infoWindowImpl.js">
+<script>
+	export default (function (x) { return x.default || x })(require('./infoWindowImpl.js'))
 </script>

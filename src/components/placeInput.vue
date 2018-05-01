@@ -6,5 +6,6 @@
     </label>
 </template>
 
-<script src="./placeInputImpl.js">
+<script>
+	export default (function (x) { return x.default || x })(require('./placeInputImpl.js'))
 </script>
