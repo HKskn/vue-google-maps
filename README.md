@@ -4,14 +4,14 @@
 
 ## Vue-2 port of vue-google-maps
 
-This is the Vue 2.x port of vue-google-maps!
+This is the fixed version of vue2-google-maps. In IE11 vue2-google-maps does not work.
 
 ## Installation
 
 ### With npm (Recommended)
 
 ```
-npm install vue2-google-maps
+npm install vue2-google-maps-fixed
 ```
 
 ### Manually
